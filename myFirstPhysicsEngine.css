@@ -1,0 +1,74 @@
+.player{
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:200px;
+    left:200px;
+}
+#f1{
+    position:absolute;
+    width:500px;
+    height:50px;
+    background-color:green;
+    top:300px;
+    left:150px;
+}
+#f2{
+    position:absolute;
+    width:500px;
+    height:50px;
+    background-color:red;
+    top:700px;
+    left:500px;
+}
+#f3{
+    position:absolute;
+    background-color:darkBlue;
+    top:410px;
+    left:1050px;
+    width:500px;
+    height:50px;
+}
+#f4{
+    position:absolute;
+    background-color:brown;
+    top:700px;
+    left:1800px;
+    width:500px;
+    height:50px;
+}
+#t1{
+    position:absolute;
+    border-radius: 100%;
+    background-color:yellow;
+    width:50px;
+    height:50px;
+    left:300px;
+    top:100px;
+
+}
+#t2{
+    position:absolute;
+    border-radius: 100%;
+    background-color:orange;
+    width:50px;
+    height:50px;
+    left:800px;
+    top:75px;
+}
+#t3{
+    position:absolute;
+    border-radius: 100%;
+    background-color:pink;
+    width:50px;
+    height:50px;
+    left:1200px;
+    top:150px;
+}
+.endScreen{
+    position:absolute;
+    width:1000000px;
+    height:600px;
+    background-color: black;
+    visibility:hidden;
+}
