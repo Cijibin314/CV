@@ -1,4 +1,4 @@
-# CV
+# Colton Flather's CV
 My first CV
 In seventh grade, I made a couple of movie generators:
 At the beginning of eighth grade, I made a website for my favorite teacher
