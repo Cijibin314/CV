@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href = "WordleRe-Cre.css">
+    <title>WordleRe-Cre</title>
+</head>
+<body>
+    <div class="background"></div>
+    <img class="confetti" src = "https://tse1.mm.bing.net/th?id=OIP.arL37zngLZoh3L-gJoSj0gHaD_&pid=Api&rs=1&c=1&qlt=95&w=188&h=101"width="1500px" height="700px">
+    <script src = "WordleMain3.js"></script>
+    <div class="myDiv" id = "myDiv"></div>
+    <table>
+        <tbody class="table">
+            <tr class="rowOne">
+                <td class="oneone"> </td>
+                <td class="transparentM">h</td>
+                <td class="onetwo"> </td>
+                <td class="transparentM">h</td>
+                <td class="onethree"> </td>
+                <td class="transparentM">h</td>
+                <td class="onefour"> </td>      
+                <td class="transparentM">h</td>                                                                                
+                <td class="onefive"> </td>
+            </tr>
+            <tr><td class="transparent">h</td></tr>
+            <tr class="rowTwo">
+                <td class="twoone"> </td>
+                <td class="transparentM">h</td>
+                <td class="twotwo"> </td>
+                <td class="transparentM">h</td>
+                <td class="twothree"> </td>
+                <td class="transparentM">h</td>
+                <td class="twofour"> </td>
+                <td class="transparentM">h</td>
+                <td class="twofive"> </td>
+            </tr>
+            <tr><td class="transparent">h</td></tr>
+            <tr class="rowThree">
+                <td class="threeone"> </td>
+                <td class="transparentM">h</td>
+                <td class="threetwo"> </td>
+                <td class="transparentM">h</td>
+                <td class="threethree"> </td>
+                <td class="transparentM">h</td>
+                <td class="threefour"> </td>
+                <td class="transparentM">h</td>
+                <td class="threefive"> </td>
+            </tr>
+            <tr><td class="transparent">h</td></tr>
+            <tr class="rowFour">
+                <td class="fourone"> </td>
+                <td class="transparentM">h</td>
+                <td class="fourtwo"> </td>
+                <td class="transparentM">h</td>
+                <td class="fourthree"> </td>
+                <td class="transparentM">h</td>
+                <td class="fourfour"> </td>
+                <td class="transparentM">h</td>
+                <td class="fourfive"> </td>
+            </tr>
+            <tr><td class="transparent">h</td></tr>
+            <tr class="rowFive">
+                <td class="fiveone"> </td>
+                <td class="transparentM">h</td>
+                <td class="fivetwo"> </td>
+                <td class="transparentM">h</td>
+                <td class="fivethree"> </td>
+                <td class="transparentM">h</td>
+                <td class="fivefour"> </td>
+                <td class="transparentM">h</td>
+                <td class="fivefive"> </td>
+            </tr>
+            <tr><td class="transparent">h</td></tr>
+            <tr class="rowSix">
+                <td class="sixone"> </td>
+                <td class="transparentM">h</td>
+                <td class="sixtwo"> </td>
+                <td class="transparentM">h</td>
+                <td class="sixthree"> </td>
+                <td class="transparentM">h</td>
+                <td class="sixfour"> </td>
+                <td class="transparentM">h</td>
+                <td class="sixfive"> </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="rowOneAlpha">
+        <div class="q" onClick = "handleKeypressForHtml('q')">Q</div>
+        <div class="w" onClick = "handleKeypressForHtml('w')">W</div>
+        <div class="e" onClick = "handleKeypressForHtml('e')">E</div>
+        <div class="r" onClick = "handleKeypressForHtml('r')">R</div>
+        <div class="t" onClick = "handleKeypressForHtml('t')">T</div>
+        <div class="y" onClick = "handleKeypressForHtml('y')">Y</div>
+        <div class="u" onClick = "handleKeypressForHtml('u')">U</div>
+        <div class="i" onClick = "handleKeypressForHtml('i')">I</div>
+        <div class="o" onClick = "handleKeypressForHtml('o')">O</div>
+        <div class="p" onClick = "handleKeypressForHtml('p')">P</div>
+    </div>
+    <div class="rowTwoAlpha">
+        <div class="a" onClick = "handleKeypressForHtml('a')">A</div>
+        <div class="s" onClick = "handleKeypressForHtml('s')">S</div>
+        <div class="d" onClick = "handleKeypressForHtml('d')">D</div>
+        <div class="f" onClick = "handleKeypressForHtml('f')">F</div>
+        <div class="g" onClick = "handleKeypressForHtml('g')">G</div>
+        <div class="h" onClick = "handleKeypressForHtml('h')">H</div>
+        <div class="j" onClick = "handleKeypressForHtml('j')">J</div>
+        <div class="k" onClick = "handleKeypressForHtml('k')">K</div>
+        <div class="l" onClick = "handleKeypressForHtml('l')">L</div>
+    </div>
+    <div class="rowThreeAlpha">
+        <div class="enterKey" onClick = "handleEnter()">Enter</div>
+        <div class="z" onClick = "handleKeypressForHtml('z')">Z</div>
+        <div class="x" onClick = "handleKeypressForHtml('x')">X</div>
+        <div class="c" onClick = "handleKeypressForHtml('c')">C</div>
+        <div class="v" onClick = "handleKeypressForHtml('v')">V</div>
+        <div class="b" onClick = "handleKeypressForHtml('b')">B</div>
+        <div class="n" onClick = "handleKeypressForHtml('n')">N</div>
+        <div class="m" onClick = "handleKeypressForHtml('m')">M</div>
+        <img class= "backspaceKey" src = "https://tse4.mm.bing.net/th?id=OIP._VvVRFdAWXP3rwsCxSGR6wHaFF&pid=Api&P=0" width = "50px" height = "30px" onClick = "handleBackspace()">
+    </div>
+    <div class="popUpScreen">
+        <p class="popUpText"></p>
+        <div class="retryButton" onClick = "reloadPage()">Retry</div>
+    </div>
+    <div class="viewScore" onClick = "viewScore()">View Score</div>
+    <div class="scoreDisplay">
+        <div class="scoreDisplayWords">
+            <p class="try1">1 try: 0</p>
+            <p class="try2">2 tries: 0</p>
+            <p class="try3">3 tries: 0</p>
+            <p class="try4">4 tries: 0</p>
+            <p class="try5">5 tries: 0</p>
+            <p class="try6">6 tries: 0</p>
+            <p class="try7">Failed: 0</p>
+        </div>
+        
+    </div>
+    <div class="userNumInputC" onmouseenter="handleMouseEnter()" onmouseleave="handleMouseLeave()">
+    <!--<label for = "userNumInputI" class = "userNumInputL">Username</label>-->
+    <input class="userNumInputI" type = "text" id = "userNumInputI" placeholder = "Username">
+    </div>
+    <div class = "clearBtn" onClick = "clearBtn()" id = "clearBtn"><p>Clear</p></div>
+</body>
+</html>
