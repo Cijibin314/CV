@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form For Difficulty</title>
+    <style>
+        .body{
+            font-family: sans-serif;
+            color: black;
+            background-color: red;
+        }
+        .submit{
+        }
+        .myInput{
+            position:absolute;
+            top:30%;
+            left:20%;
+            border-color: #ffad00;
+            font-size: 30px;
+            border-width: 5px;
+            background-color:lightgreen;
+            width:200px;
+            height:50px;
+        }
+        .myInput:hover{
+            border-color: #ff9b00;
+        }
+        .myInput:focus{
+            background-color: green;
+        }
+        .myLabel{
+            position:absolute;
+            top:8%;
+            left:20%;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .container{
+            width:350px;
+            height:50%;
+            position:absolute;
+            transform: translate(-50%, -50%);
+            left:50%;
+            top:50%;
+            background-color: aqua;
+        }
+        .options{
+            position:absolute;
+            left:28%;
+            top:20%;
+        }
+        .submitWrapper{
+            position:relative;
+            left:40%;
+            top:60%;
+        }
+        .submit{
+            position:absolute;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            top:50%;
+            background-color: lightgreen;
+            border-color: #ffad00;
+            font-weight: bold;
+            height:30px;
+            width:70px;
+            border-width:5px;
+            text-align: center;
+        }
+        .submit:hover{
+            border-color:#ff9b00;
+        }
+        .play{
+            position:absolute;
+            top:75%;
+            left:30%;
+            font-size: 30px;
+            text-decoration: none;
+            background-color: lightgreen;
+            color:black;
+            width:140px;
+            height:60px;
+            text-align: center;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <div class = "container">
+        <label class = "myLabel">Preferred Difficulty Here</label>
+        <label for = "myInput" class="options" >Easy, Medium, or Hard</label>
+        <select class = "myInput" id = "myInput">
+            <option value = 'easy'>Easy</option>
+            <option value = 'medium'>Medium</option>
+            <option value = 'hard'>Hard</option>
+        </select>
+        <a href = "file:///C:/Users/colto/code/myFirstGame.html" class = "play" onClick = "myFunc()">Play</a>
+        </div>
+    </form>
+    
+    <script>
+        button = document.querySelector('.submit');
+        button.addEventListener("click", myFunc)
+        function myFunc(){
+        console.log('I excecuted!')
+        console.log(document.querySelector(".myInput").value)
+        const myVarToPass = document.querySelector('.myInput').options[document.querySelector('.myInput').selectedIndex].value
+        localStorage.setItem("myVarToPass1803837263948278", myVarToPass)
+        }
+    </script>
+    
+</body>
+</html>
